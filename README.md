@@ -1,4 +1,4 @@
-![내일의 죠 한국어 타이틀 화면](docs/screenshots/title.png)
+![내일의 죠 한국어 타이틀 화면](https://github.com/OldManCraveGuitars-bit/PS2-Ashita-no-Joe-Masshiro-ni-Moe-Tsukiro-Kr/blob/main/docs/screenshots/v0.95/title.png?raw=true)
 
 # 내일의 죠 — 하얗게 불태워라! 한국어 패치
 
@@ -72,28 +72,25 @@ v0.95 적용 결과 ISO의 SHA-256:
 
 | 메인 메뉴 | 스토리 대사 |
 | --- | --- |
-| ![메인 메뉴](docs/screenshots/main-menu.png) | ![한글 대사](docs/screenshots/story-dialogue.png) |
+| ![메인 메뉴](https://github.com/OldManCraveGuitars-bit/PS2-Ashita-no-Joe-Masshiro-ni-Moe-Tsukiro-Kr/blob/main/docs/screenshots/v0.95/main-menu.png?raw=true) | ![한글 대사](https://github.com/OldManCraveGuitars-bit/PS2-Ashita-no-Joe-Masshiro-ni-Moe-Tsukiro-Kr/blob/main/docs/screenshots/v0.95/story-dialogue.png?raw=true) |
 
 | 장 시작 제목 | 경기 규칙 |
 | --- | --- |
-| ![장 시작 세로 제목](docs/screenshots/chapter-title.png) | ![정리된 경기 규칙 UI](docs/screenshots/boxing-rules.png) |
+| ![장 시작 세로 제목](https://github.com/OldManCraveGuitars-bit/PS2-Ashita-no-Joe-Masshiro-ni-Moe-Tsukiro-Kr/blob/main/docs/screenshots/v0.95/chapter-title.png?raw=true) | ![정리된 경기 규칙 UI](https://github.com/OldManCraveGuitars-bit/PS2-Ashita-no-Joe-Masshiro-ni-Moe-Tsukiro-Kr/blob/main/docs/screenshots/v0.95/boxing-rules.png?raw=true) |
 
 | 저장·불러오기 | 스토리 메뉴 |
 | --- | --- |
-| ![저장 목록](docs/screenshots/save-menu.png) | ![정렬을 맞춘 종이 메뉴](docs/screenshots/story-menu.png) |
+| ![저장 목록](https://github.com/OldManCraveGuitars-bit/PS2-Ashita-no-Joe-Masshiro-ni-Moe-Tsukiro-Kr/blob/main/docs/screenshots/v0.95/save-menu.png?raw=true) | ![정렬을 맞춘 종이 메뉴](https://github.com/OldManCraveGuitars-bit/PS2-Ashita-no-Joe-Masshiro-ni-Moe-Tsukiro-Kr/blob/main/docs/screenshots/v0.95/story-menu.png?raw=true) |
 
 오프닝 자막 — 최종 인코딩 영상에서 추출한 프레임입니다.
 
-![오프닝 제목 자막](docs/screenshots/opening-subtitle.png)
+![오프닝 제목 자막](https://github.com/OldManCraveGuitars-bit/PS2-Ashita-no-Joe-Masshiro-ni-Moe-Tsukiro-Kr/blob/main/docs/screenshots/v0.95/opening-subtitle.png?raw=true)
 
-<details>
-<summary>UI 테두리·배치와 종소리 효과 수정 이미지</summary>
+### UI 테두리·배치와 종소리 효과
 
 최종 게임 팔레트로 변환한 이미지입니다. 실제 플레이 중 화면과 구분한 식자 검수 자료입니다.
 
-![UI 및 종소리 수정 이미지](docs/screenshots/ui-improvements.png)
-
-</details>
+![UI 및 종소리 수정 이미지](https://github.com/OldManCraveGuitars-bit/PS2-Ashita-no-Joe-Masshiro-ni-Moe-Tsukiro-Kr/blob/main/docs/screenshots/v0.95/ui-improvements.png?raw=true)
 
 ## 검증과 참고 사항
 

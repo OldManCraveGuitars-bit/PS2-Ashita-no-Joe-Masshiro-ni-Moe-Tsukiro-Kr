@@ -1,4 +1,4 @@
-![타이틀 화면](https://raw.githubusercontent.com/OldManCraveGuitars-bit/PS2-Ashita-no-Joe-Masshiro-ni-Moe-Tsukiro-Kr/v0.95/docs/screenshots/title.png)
+![타이틀 화면](https://github.com/OldManCraveGuitars-bit/PS2-Ashita-no-Joe-Masshiro-ni-Moe-Tsukiro-Kr/blob/main/docs/screenshots/v0.95/title.png?raw=true)
 
 ## 내일의 죠 PS2 한국어 패치 v0.95 TEST
 
@@ -31,11 +31,11 @@ ZIP에는 **Windows용 전용 EXE 패처**, 차분 파일, 해시 검사 정보�
 
 | 메인 | 스토리 |
 | --- | --- |
-| ![메인](https://raw.githubusercontent.com/OldManCraveGuitars-bit/PS2-Ashita-no-Joe-Masshiro-ni-Moe-Tsukiro-Kr/v0.95/docs/screenshots/main-menu.png) | ![스토리](https://raw.githubusercontent.com/OldManCraveGuitars-bit/PS2-Ashita-no-Joe-Masshiro-ni-Moe-Tsukiro-Kr/v0.95/docs/screenshots/story-dialogue.png) |
+| ![메인](https://github.com/OldManCraveGuitars-bit/PS2-Ashita-no-Joe-Masshiro-ni-Moe-Tsukiro-Kr/blob/main/docs/screenshots/v0.95/main-menu.png?raw=true) | ![스토리](https://github.com/OldManCraveGuitars-bit/PS2-Ashita-no-Joe-Masshiro-ni-Moe-Tsukiro-Kr/blob/main/docs/screenshots/v0.95/story-dialogue.png?raw=true) |
 
 | 경기 규칙 | 저장 목록 |
 | --- | --- |
-| ![경기 규칙](https://raw.githubusercontent.com/OldManCraveGuitars-bit/PS2-Ashita-no-Joe-Masshiro-ni-Moe-Tsukiro-Kr/v0.95/docs/screenshots/boxing-rules.png) | ![저장 목록](https://raw.githubusercontent.com/OldManCraveGuitars-bit/PS2-Ashita-no-Joe-Masshiro-ni-Moe-Tsukiro-Kr/v0.95/docs/screenshots/save-menu.png) |
+| ![경기 규칙](https://github.com/OldManCraveGuitars-bit/PS2-Ashita-no-Joe-Masshiro-ni-Moe-Tsukiro-Kr/blob/main/docs/screenshots/v0.95/boxing-rules.png?raw=true) | ![저장 목록](https://github.com/OldManCraveGuitars-bit/PS2-Ashita-no-Joe-Masshiro-ni-Moe-Tsukiro-Kr/blob/main/docs/screenshots/v0.95/save-menu.png?raw=true) |
 
 ### SHA-256
 
