@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.spec
+build/
+dist/
+*.iso
+*.bin
+*.xdelta
+*.exe
+*.zip
+*.partial
+result.json

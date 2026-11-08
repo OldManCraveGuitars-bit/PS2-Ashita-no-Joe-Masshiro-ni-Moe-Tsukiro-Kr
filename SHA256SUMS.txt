@@ -1,0 +1,4 @@
+4759606979202ca1462e79ad60d2b9428ade18f0e71cbf9919b9588b8d146e12  Ashita-no-Joe-Kr-v0.95.zip
+460b7212050c79ba37bc0aa2ebc67181e9237a95efd4dff4a12ac2c9d91863de  Ashita-no-Joe-Kr-Patcher-v0.95.exe
+95fa9f189aa30a32bd8537a0986beea063f37544e3ab53164e607f91fe790cc4  Ashita-no-Joe-Kr-v0.95.xdelta
+3deb24b1241a38f32a620b0aac4675fcf58796314bdd88aaca846d6e4f8ff192  patch-manifest.json

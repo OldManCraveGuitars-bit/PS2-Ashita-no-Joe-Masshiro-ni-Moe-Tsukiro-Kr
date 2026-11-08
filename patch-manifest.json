@@ -1,0 +1,20 @@
+{
+  "version": "0.95",
+  "game": "Ashita no Joe - Masshiro ni Moe Tsukiro!",
+  "serial": "SLPM-65441",
+  "format": "xdelta3-vcdiff",
+  "source": {
+    "bytes": 2196439040,
+    "sha256": "7a03d9515210cdf97d9d96cbd4cfa06805b5807fbc5259f3c9e93be28b7245b8"
+  },
+  "output": {
+    "file": "Ashita-no-Joe-Kr-v0.95.iso",
+    "bytes": 2527619072,
+    "sha256": "8371802c869787c82fa30e34bb7f02629d35a9d288d76ad162b6c9f7644920e7"
+  },
+  "patch": {
+    "file": "Ashita-no-Joe-Kr-v0.95.xdelta",
+    "bytes": 613012197,
+    "sha256": "95fa9f189aa30a32bd8537a0986beea063f37544e3ab53164e607f91fe790cc4"
+  }
+}
