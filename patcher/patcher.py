@@ -12,7 +12,7 @@ import sys
 import tempfile
 import threading
 
-VERSION = '0.95'
+VERSION = '1.1'
 
 def sha256(path, progress=lambda *_: None, start=0, span=0):
     total=path.stat().st_size; done=0; digest=hashlib.sha256()
@@ -30,7 +30,7 @@ def install(source, output, package, progress=lambda *_: None, decoder=None):
     if output.exists():raise FileExistsError('출력 파일이 이미 있습니다. 새 파일 이름을 지정하세요.')
     if not output.parent.is_dir():raise FileNotFoundError('출력 폴더가 없습니다.')
     if shutil.disk_usage(output.parent).free<manifest['output']['bytes']+64*1024*1024:
-        raise OSError('출력 드라이브에 약 2.5GB 이상의 빈 공간이 필요합니다.')
+        raise OSError('출력 드라이브에 약 3GB의 빈 공간을 확보해 주세요.')
     patch_name=manifest['patch']['file']
     if Path(patch_name).name!=patch_name:raise ValueError('올바르지 않은 패치 파일 이름입니다.')
     patch=package/patch_name
@@ -79,16 +79,16 @@ def gui():
     if 'vista' in style.theme_names():style.theme_use('vista')
     outer=ttk.Frame(root,padding=22);outer.pack(fill='both',expand=True)
     ttk.Label(outer,text='내일의 죠 — 하얗게 불태워라!',font=('Malgun Gothic',17,'bold')).pack(anchor='w')
-    ttk.Label(outer,text=f'일본판 SLPM-65441 · 한글 패치 v{VERSION} TEST',padding=(0,6,0,12)).pack(anchor='w')
+    ttk.Label(outer,text=f'일본판 SLPM-65441 · 비공식 한글화 정식버전 v{VERSION}',padding=(0,6,0,12)).pack(anchor='w')
     source=tk.StringVar();output=tk.StringVar();status=tk.StringVar(value='원본 ISO를 선택하면 해시를 확인한 뒤 별도의 한글 ISO를 만듭니다.')
     form=ttk.Frame(outer);form.pack(fill='x');form.columnconfigure(1,weight=1)
     def pick_source():
         chosen=filedialog.askopenfilename(title='일본판 원본 ISO 선택',filetypes=[('ISO 이미지','*.iso'),('모든 파일','*.*')])
         if chosen:
             source.set(chosen)
-            if not output.get():output.set(str(Path(chosen).parent/'Ashita-no-Joe-Kr-v0.95.iso'))
+            if not output.get():output.set(str(Path(chosen).parent/f'Ashita-no-Joe-Kr-v{VERSION}.iso'))
     def pick_output():
-        chosen=filedialog.asksaveasfilename(title='한글 ISO 저장 위치',defaultextension='.iso',initialfile='Ashita-no-Joe-Kr-v0.95.iso',filetypes=[('ISO 이미지','*.iso')])
+        chosen=filedialog.asksaveasfilename(title='한글 ISO 저장 위치',defaultextension='.iso',initialfile=f'Ashita-no-Joe-Kr-v{VERSION}.iso',filetypes=[('ISO 이미지','*.iso')])
         if chosen:output.set(chosen)
     for i,(label,var,command) in enumerate([('원본 ISO',source,pick_source),('한글 ISO',output,pick_output)]):
         ttk.Label(form,text=label,width=10).grid(row=i,column=0,sticky='w',pady=6)

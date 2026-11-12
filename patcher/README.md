@@ -12,7 +12,7 @@ Windows에서 저장소 루트를 기준으로 빌드합니다.
 
 ```powershell
 python -m pip install pyinstaller
-python -m PyInstaller --noconfirm --onefile --windowed --name Ashita-no-Joe-Kr-Patcher-v0.95 --add-binary "C:\tools\xdelta3.exe;runtime" patcher\patcher.py
+python -m PyInstaller --noconfirm --onefile --windowed --name Ashita-no-Joe-Kr-Patcher-v1.1 --add-binary "C:\tools\xdelta3.exe;runtime" patcher\patcher.py
 ```
 
 `xdelta3decode.exe` 경량 빌드는 배포 패치에서 사용하는 LZMA 보조 압축을 지원하지 않으므로 사용하지 않습니다.
@@ -22,7 +22,7 @@ python -m PyInstaller --noconfirm --onefile --windowed --name Ashita-no-Joe-Kr-P
 자동 검증을 위한 명령행 사용:
 
 ```powershell
-.\Ashita-no-Joe-Kr-Patcher-v0.95.exe --source "original.iso" --output "Ashita-no-Joe-Kr-v0.95.iso" --package "." --report "result.json"
+.\Ashita-no-Joe-Kr-Patcher-v1.1.exe --source "original.iso" --output "Ashita-no-Joe-Kr-v1.1.iso" --package "." --report "result.json"
 ```
 
 소스로 실행할 때는 `--decoder "C:\tools\xdelta3.exe"`로 디코더를 지정할 수 있습니다. 원본·차분·출력의 해시가 모두 맞아야 성공합니다. 결과가 확정되기 전까지는 출력 폴더에 임시 파일을 만들며, 실패하면 이 임시 파일만 제거합니다.

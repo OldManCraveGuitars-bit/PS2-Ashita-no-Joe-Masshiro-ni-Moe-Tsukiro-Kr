@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
-from patcher import install
+from patcher import install,VERSION
 
 class PreservationTests(unittest.TestCase):
     def setUp(self):
@@ -11,7 +11,7 @@ class PreservationTests(unittest.TestCase):
         self.base=Path(self.directory.name);self.source=self.base/'original.iso';self.source.write_bytes(b'original bytes')
         self.patch=self.base/'sample.xdelta';self.patch.write_bytes(b'delta sample')
         self.output=self.base/'korean.iso'
-        self.manifest=dict(version='0.95',source=dict(bytes=self.source.stat().st_size,sha256=hashlib.sha256(self.source.read_bytes()).hexdigest()),
+        self.manifest=dict(version=VERSION,source=dict(bytes=self.source.stat().st_size,sha256=hashlib.sha256(self.source.read_bytes()).hexdigest()),
             output=dict(bytes=100,sha256='0'*64),patch=dict(file=self.patch.name,bytes=self.patch.stat().st_size,sha256='0'*64))
         self.save()
     def save(self):
@@ -30,5 +30,10 @@ class PreservationTests(unittest.TestCase):
     def test_damaged_patch_is_rejected_before_decoding(self):
         with self.assertRaisesRegex(ValueError,'패치 파일'):install(self.source,self.output,self.base)
         self.assertFalse(self.output.exists());self.assertEqual(self.source.read_bytes(),b'original bytes')
+
+    def test_other_version_is_rejected(self):
+        self.manifest['version']='0.95';self.save()
+        with self.assertRaisesRegex(ValueError,'버전'):install(self.source,self.output,self.base)
+        self.assertFalse(self.output.exists())
 
 if __name__=='__main__':unittest.main()

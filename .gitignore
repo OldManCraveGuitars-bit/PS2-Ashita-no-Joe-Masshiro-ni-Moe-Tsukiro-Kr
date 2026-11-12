@@ -10,3 +10,6 @@ dist/
 *.zip
 *.partial
 result.json
+
+*.ps2
+*.psu

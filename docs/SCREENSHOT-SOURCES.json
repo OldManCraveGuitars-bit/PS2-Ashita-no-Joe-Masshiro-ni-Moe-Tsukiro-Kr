@@ -1,0 +1,135 @@
+{
+  "version": "1.1",
+  "screenshots": [
+    {
+      "file": "boxing-rules.png",
+      "kind": "earlier_validated_gameplay_or_asset_review",
+      "note": "v0.95 공개 검수 자료. 같은 한글 자산을 v1.1에서도 유지합니다. 새 기능의 실행 화면과 구분합니다.",
+      "sha256": "919c6c7ced9d93592bb08a087a7dfd3338524c675ac8fa2e05c038246ae9741c",
+      "dimensions": [
+        409,
+        307
+      ]
+    },
+    {
+      "file": "chapter-title.png",
+      "kind": "earlier_validated_gameplay_or_asset_review",
+      "note": "v0.95 공개 검수 자료. 같은 한글 자산을 v1.1에서도 유지합니다. 새 기능의 실행 화면과 구분합니다.",
+      "sha256": "e1732675c617b3b5d4e322bb86451bc01fbcbeafcb440f43ec75938aeab71cc6",
+      "dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "file": "main-menu.png",
+      "kind": "earlier_validated_gameplay_or_asset_review",
+      "note": "v0.95 공개 검수 자료. 같은 한글 자산을 v1.1에서도 유지합니다. 새 기능의 실행 화면과 구분합니다.",
+      "sha256": "0339fccdbb4e8749b8d46f974bd30e986f6ef59e07db5fb142c7c262a068eadd",
+      "dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "file": "opening-subtitle.png",
+      "kind": "earlier_validated_gameplay_or_asset_review",
+      "note": "v0.95 공개 검수 자료. 같은 한글 자산을 v1.1에서도 유지합니다. 새 기능의 실행 화면과 구분합니다.",
+      "sha256": "c7ee40e329ca993525faead819ec49d8a54ce0c943c7e971d58442f601ff6727",
+      "dimensions": [
+        640,
+        448
+      ]
+    },
+    {
+      "file": "save-menu.png",
+      "kind": "earlier_validated_gameplay_or_asset_review",
+      "note": "v0.95 공개 검수 자료. 같은 한글 자산을 v1.1에서도 유지합니다. 새 기능의 실행 화면과 구분합니다.",
+      "sha256": "a94c9580cc0782afb491f1ffa3882c04bf0e07e30018b1a3788eb498f28e8f81",
+      "dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "file": "story-dialogue.png",
+      "kind": "earlier_validated_gameplay_or_asset_review",
+      "note": "v0.95 공개 검수 자료. 같은 한글 자산을 v1.1에서도 유지합니다. 새 기능의 실행 화면과 구분합니다.",
+      "sha256": "43176351a6c57ba9653b5d02c39d5b6900fe5b1c20558d6bdadc52e8aa3a64d7",
+      "dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "file": "story-menu.png",
+      "kind": "earlier_validated_gameplay_or_asset_review",
+      "note": "v0.95 공개 검수 자료. 같은 한글 자산을 v1.1에서도 유지합니다. 새 기능의 실행 화면과 구분합니다.",
+      "sha256": "86c24526bd51a6d027782a26886de3330d5bcfd876696cad9cc08e66cb8ce923",
+      "dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "file": "title.png",
+      "kind": "earlier_validated_gameplay_or_asset_review",
+      "note": "v0.95 공개 검수 자료. 같은 한글 자산을 v1.1에서도 유지합니다. 새 기능의 실행 화면과 구분합니다.",
+      "sha256": "0f44960da93f6fe7ed5232d5b1e99741a24f646a49b2c916c0ea656266736200",
+      "dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "file": "ui-improvements.png",
+      "kind": "earlier_validated_gameplay_or_asset_review",
+      "note": "v0.95 공개 검수 자료. 같은 한글 자산을 v1.1에서도 유지합니다. 새 기능의 실행 화면과 구분합니다.",
+      "sha256": "2c61256f3cbb5d5c7a951dce7b29256f2b33e26baca62ae948b63b87344dad19",
+      "dimensions": [
+        1100,
+        1600
+      ]
+    },
+    {
+      "file": "chapter-select.png",
+      "kind": "final_payload_debugger_assisted_pc_execution",
+      "note": "배포와 동일한 실행 코드·자료에서 촬영. 버튼 입력과 시작 장면 준비에 디버거 사용.",
+      "sha256": "6587bd77a049a7e74a5cd2f867552bc7413ee0a6284ad9fadf6423e4561e7068",
+      "dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "file": "chapter-14.png",
+      "kind": "final_payload_debugger_assisted_pc_execution",
+      "note": "셀렉트 장 이동 후 제14장 시작. 최종 ISO를 새로 부팅한 검사.",
+      "sha256": "476c1a5c93aa7d662a6ddcc6a289a640ce06785618d2bb651f4608b1847e72ab",
+      "dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "file": "voice-subtitle.png",
+      "kind": "encoded_movie_frame",
+      "note": "배포에도 포함된 09_062 영상의 최종 자막 프레임.",
+      "sha256": "86d57e91ceeaad5da566f8d319aa6c554cbf077da6e81c26a02455e2be22e793",
+      "dimensions": [
+        640,
+        448
+      ]
+    },
+    {
+      "file": "ending-credit.png",
+      "kind": "encoded_movie_frame",
+      "note": "배포에도 포함된 STAFF_01 마지막 표기. 원래 크레딧과 完은 유지.",
+      "sha256": "c1b06e5979fa214e25124d111b5bbf4034cfe4934e58067c853b444a16255679",
+      "dimensions": [
+        640,
+        448
+      ]
+    }
+  ]
+}

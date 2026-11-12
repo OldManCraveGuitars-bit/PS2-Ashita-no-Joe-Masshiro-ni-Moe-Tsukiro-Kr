@@ -1,0 +1,74 @@
+{
+  "source_card_unchanged": true,
+  "chapter_count": 143,
+  "bitmap_offset": "0x24",
+  "bitmap_length": 20,
+  "checksum_offset": "0x38",
+  "checksum": 112,
+  "checksum_native_rule": "first byte * 56 (native 0x1d6608..0x1d6664)",
+  "only_system_bitmap_modified": true,
+  "story_slots_preserved": true,
+  "options_preserved": true,
+  "character_flags_preserved": true,
+  "all_pages_ecc_passed": 16384,
+  "psu_roundtrip": true,
+  "card_roundtrip": true,
+  "runtime_verified": false,
+  "files": [
+    {
+      "file": "BISLPM-65441",
+      "bytes": 60,
+      "sha256": "87bae3efdfe9e241dd498bf38e214572453fd864f7a48bddb0889fe9d5575510"
+    },
+    {
+      "file": "STORY00.DAT",
+      "bytes": 580,
+      "sha256": "66c5977f4cfbdd97ec40110b661573f49b9b561184029a5bef22f8010f4f7dbf"
+    },
+    {
+      "file": "STORY01.DAT",
+      "bytes": 580,
+      "sha256": "ab4cd98d7814e821dc3ad6d114d718d468851b53951bec362af424c629b08bf2"
+    },
+    {
+      "file": "STORY02.DAT",
+      "bytes": 580,
+      "sha256": "b92428daaf38be6775a2b1ce78f5c8ce213b90c6e6fbd95bae56458ab90f7437"
+    },
+    {
+      "file": "STATIC.ICO",
+      "bytes": 46936,
+      "sha256": "5a35fb40bd3cc1aa24a30e54460f96d6c1f9725abd62ffa706f36ee6307045eb"
+    },
+    {
+      "file": "icon.sys",
+      "bytes": 964,
+      "sha256": "2abaf9c91548c35b8868c37e61ec520c5105be7261580c39a77c3a2456f66998"
+    }
+  ],
+  "outputs": {
+    "Ashita-no-Joe-All-Chapters.psu": {
+      "bytes": 56832,
+      "sha256": "7c334f272913c648565af97ac0842d5a6c0e944cc7be79cd5301a6cf6bd45920"
+    },
+    "Ashita-no-Joe-All-Chapters.ps2": {
+      "bytes": 8650752,
+      "sha256": "3d9188d918db4b290b0c5346a003dc7ab18b4c69f5e7219f48bb10abae299894"
+    }
+  },
+  "native_getter_verification": {
+    "passed": true,
+    "native_getter": "0x1d55d0",
+    "native_instructions_executed": true,
+    "new_unlocked": 143,
+    "chapter_count": 143,
+    "source_unlocked": 17,
+    "cases": 286,
+    "only_bitmap_changed": true,
+    "runtime_menu_observation": false,
+    "pc_capture_error": "FrameArrived timed out; retry window capture timed out"
+  },
+  "release_version": "1.1",
+  "pc_boot_read_verified": true,
+  "runtime_menu_fully_observed": false
+}
